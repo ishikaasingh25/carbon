@@ -1,9 +1,7 @@
 const axios = require('axios');
 
 const API_URL = 'https://api.climatiq.io/data/v1/estimate';
-const API_KEY = process.env.CLIMATIQ_API_KEY;
-
-
+const API_KEY = '8XZMTKFQ2M4BTFK4GAG5094KZ0MS'; // Replace with your actual API key
 
 const estimateEmissions = async ({ activity, quantity, unit }) => {
     const data = {
