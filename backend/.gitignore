@@ -1,6 +1,6 @@
 # Node.js
 node_modules/
-
+backend/config/carbon_service_account.json
 # Environment variables
 .env
 

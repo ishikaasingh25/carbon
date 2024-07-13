@@ -3,7 +3,7 @@ const serviceAccount = require('./carbon_service_account.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://carbon-b73c7.firebaseio.com'
+  databaseURL: process.env.FIREBASE_DATABASE_URL,
 });
 
 const db = admin.firestore();
