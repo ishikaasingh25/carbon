@@ -1,6 +1,7 @@
 # Node.js
 node_modules/
 config\carbon_service_account.json
+getFirebaseToken.js
 # Environment variables
 .env
 
